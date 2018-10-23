@@ -26,8 +26,9 @@ HTTP request headers is a component of a network packet sent by a browser or cli
 | Header            | Description                                                  |
 | ----------------- | ------------------------------------------------------------ |
 | **Accept**        | Required for operations with a response body. Specifies the response format. The syntax is: `Accept: application/json`. |
-| **Content-Type**  | Required for operations with a request body.Specifies the request format. The syntax is: `Content-Type: application/json`. |
+| **Content-Type**  | Required for operations with a request body. Specifies the request format. The syntax is: `Content-Type: application/json`. |
 | **Authorization** | Required to get an access token or make API calls. To make REST API calls, include the bearer token in the `Authorization` header with the `Bearer` authentication scheme: `Authorization: Bearer <access_token>` |
+| **Tenant** | Required for all request to your project, `Tenant` is a project code when you creating a new project |
 
 ## Query parameters
 

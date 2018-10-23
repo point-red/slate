@@ -9,7 +9,8 @@ toc_footers:
   - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
 
 includes:
-  - authentication
+  - authentication/index
+  - authentication/access-token
   - api/request
   - api/response
   - master/index
