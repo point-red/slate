@@ -25,7 +25,13 @@ includes:
   - master/customer/list
   - master/customer/show
   - master/customer/update
-  - master/customer/delete 
+  - master/customer/delete
+  - master/supplier/index
+  - master/supplier/create
+  - master/supplier/list
+  - master/supplier/show
+  - master/supplier/update
+  - master/supplier/delete 
 
 search: true
 ---
