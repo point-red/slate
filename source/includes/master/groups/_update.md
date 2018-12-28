@@ -6,7 +6,7 @@ curl -X POST \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer <access_token>' \
   -H 'Content-Type: application/x-www-form-urlencoded' \
-  -d 'group_type=customer&name=John%20Doe'
+  -d 'type=<type>&name=<name>'
 ```
 
 > Response
@@ -36,5 +36,5 @@ Update a Group.
 Parameter | Type | Description
 --------- | ----------- | -----------
 id *(required)* | int | The ID of the group to delete
-group_type *(required)* | string |
-name *(required)* | int | The ID of the groups to retrieve
+type *(required)* | string |
+name *(required)* | string |

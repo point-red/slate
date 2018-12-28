@@ -2,7 +2,7 @@
 
 ```shell
 curl -X GET \
-  'https://api.point.red/api/v1/master/groups?group_type=customer' \
+  'https://api.point.red/api/v1/master/groups?type=customer' \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer <access_token>' \
   -H 'Content-Type: application/json' \
@@ -28,7 +28,7 @@ curl -X GET \
 }
 ```
 
-List groups.
+List Groups.
 
 ### HTTP Request
 
@@ -38,4 +38,4 @@ List groups.
 
 Parameter | Type | Description
 --------- | ------- | -----------
-group_type *(required)* | string | 
+type *(required)* | string | 

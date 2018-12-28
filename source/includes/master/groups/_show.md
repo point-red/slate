@@ -2,7 +2,7 @@
 
 ```shell
 curl -X GET \
-  'https://api.point.red/api/v1/master/groups/<id>?group_type=customer' \
+  'https://api.point.red/api/v1/master/groups/<id>' \
   -H 'Authorization: Bearer <access_token>' \
   -H 'cache-control: no-cache'
 ```
@@ -30,4 +30,3 @@ Show a group.
 Parameter | Type | Description
 --------- | ----------- | -----------
 id *(required)* | int | The ID of the groups to retrieve
-group_type *(required)* | string |

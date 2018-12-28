@@ -1,7 +1,7 @@
 ## Delete Group
 
 ```shell
-curl "http://example.com/api/kittens/2"
+curl "https://api.point.red/api/v1/master/groups/<id>"
   -X DELETE
   -H "Authorization: <access_code>"
 ```
@@ -19,4 +19,3 @@ Delete a Group
 Parameter | Type | Description
 --------- | ----------- | -----------
 id *(required)* | int | The ID of the group to delete
-group_type *(required)* | string
