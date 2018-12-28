@@ -20,6 +20,12 @@ includes:
   - master/groups/show
   - master/groups/update
   - master/groups/delete
+  - master/customer/index
+  - master/customer/create
+  - master/customer/list
+  - master/customer/show
+  - master/customer/update
+  - master/customer/delete 
 
 search: true
 ---
